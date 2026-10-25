@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "fixture": {
+      "command": "node",
+      "cwd": "..",
+      "args": ["support/mock-mcp.mjs"],
+      "passEnv": []
+    }
+  }
+}

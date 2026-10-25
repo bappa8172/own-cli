@@ -1,0 +1,21 @@
+node_modules/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+auth.json
+vault.json
+vault.json.*
+*.pem
+*.key
+.own-codex/
+.codex/
+.next/
+.DS_Store
+reports/
+.own-cli-backups/
+
+# Local sites generated while exercising the coding agent.
+/amazon-clone/
+/dress-store/

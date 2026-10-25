@@ -1,0 +1,7 @@
+{
+  "rules": [
+    { "tool": "run_command", "action": "ask", "commandRegex": "npm" },
+    { "tool": "write_file", "action": "deny", "pathRegex": "^generated/" },
+    { "tool": "edit_file", "action": "deny", "pathRegex": "^generated/" }
+  ]
+}

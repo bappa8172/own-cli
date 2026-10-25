@@ -1,0 +1,21 @@
+{
+  "name": "own-codex-cli",
+  "version": "0.5.0",
+  "description": "An event-driven terminal coding agent with sessions, verified undo, planning, multiple providers, MCP, and isolated worktrees.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "own-codex": "src/cli.js",
+    "own-cli": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "test:live-agent": "node support/live-agent-smoke.mjs",
+    "test:live-runtime": "node support/live-roadmap-smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20.3"
+  }
+}
